@@ -23,7 +23,7 @@ class ControlledDatePicker extends React.Component {
 
   handleOpenChange = (open) => {
     if (open) {
-      this.setState({ mode: 'time' });
+      this.setState({ mode: 'date' });
     }
   }
 
